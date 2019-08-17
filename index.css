@@ -1,0 +1,197 @@
+html {
+	background-color: #B0D08B
+}
+ .body{   
+
+font-family: tahoma,san-serif;
+font-size: 87%
+}
+
+body p span {
+	color: #ABD0BC;
+	background-color:#D86161;
+}
+
+
+.container{
+width: 940px;
+margin-right: auto;
+margin-left: auto;
+background-color: #FFF;
+padding-left: 40px;
+padding-right: 40px;
+padding-top: 20px;
+padding-bottom: 20px;
+box-sizing:border-box;
+}
+
+header{
+	padding-top: 20px;
+	color: #008040;
+}
+header h1 {
+	margin: 0;
+	font-weight: normal;
+	font-size: 165%;
+}
+header p{
+	margin: 0;
+}
+
+.content-area{
+	border-top: 3px solid #D1F6A5;
+	border-bottom: 3px solid #D1F6A5;
+}
+
+.main-area{
+	width:66%;
+float: left;
+padding-right: 40px;
+box-sizing:border-box;
+}
+
+.sidebar{
+width: 34%;
+float: left;
+background-color: #BFD0AB;
+padding: 20px 40px 20px 40px;
+font-size: 80%;
+box-sizing:border-box;
+}
+
+.fix{
+	clear: both;
+}
+.group{
+
+}
+
+footer{
+	text-align: center;
+	color: #D0CACD;
+	font-size: 75%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+
+/*site navigation */
+
+.site-nav{
+	margin-top: 20px
+}
+.site-nav ul{
+	margin: 0;
+	padding: 0;
+
+}
+
+
+.site-nav li{
+	list-style: none;
+	float: left;
+	margin-right: 5px;
+}
+.site-nav a{
+	display: block;
+	text-decoration: none;
+	color: #008040;
+	padding: 10px 20px;
+	border: 3px solid #D1F6A5;
+	border-bottom: none;
+}
+
+	.site-nav a:hover{
+		background-color :#D1F6A5;
+	}
+	
+img{
+	width  :100%;
+    height: 300px;
+ }
+
+
+
+/*banner overlay */
+.image-banner{
+	position: relative;
+}
+
+.image-banner img{
+	display: block;
+}
+
+.banner-description {
+	position: absolute;
+	bottom:0;
+	left: 0;
+	right: 0;
+    color: #FFF;
+    background-color: rgba(0,0,50,.3);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+   size:12px;
+   font-size: 10px
+
+}
+
+/*end site navigation */
+
+
+
+/*tab;e style*/
+
+table{
+	border-spacing: 0;
+	border-collapse: collapse;
+	width: 100%;
+	padding-top: 20px;
+	margin-top: 20px;
+}
+
+table th{
+
+	text-align: left;
+	background-color: #3C2D3B;
+	color: #FFF;
+	text-shadow: 1px 1px 0 rgba(0,0,0,.3)
+
+}
+
+
+
+table th,
+table td{
+	border: 1px solid #3C2D3B;
+	padding: 10px;
+	vertical-align: top;
+}
+
+.col-name{
+	width: 40%;
+}
+
+.col-alice{
+	width: 20%
+}
+.col-prise{
+	width: 20%
+}
+.col-quantity{
+	width: 20%
+} 
+
+table tr :nth-child(2),
+table tr :nth-child(3),
+table tr :nth-child(4)
+{
+text-align: center;
+}
+
+
+table tbody tr:nth-child(even) td{
+	background-color: #C6BCD6;
+}

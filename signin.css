@@ -1,0 +1,12 @@
+input[type="text],
+input[type="email"],
+input[type="text and number"],
+input[type="tel"]
+
+{
+	width: 100%
+	display:block;
+	box-sizing: border-box;
+	padding: 0 10px;
+	height: 40px;
+}
